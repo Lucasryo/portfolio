@@ -1,0 +1,110 @@
+/*CSS para pagina curriculo*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+
+.cabecalho__menu {
+    padding: 2% 0% 0% 8%;
+}
+
+
+.cabecalho__menu {
+    display: flex;
+    gap: 5rem;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.resumo {
+    padding: 3% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resumo_principal {
+    font-size: 0.75rem;
+    font-family: 'Krona One', sans-serif;
+    width: 38.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.texto1 {
+    line-height: 2;
+    font-size: 0.75rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sobrenome {
+    color: rgb(98, 219, 163);
+}
+
+.faculdade {
+    color: darksalmon;
+}
+
+.resumo_exp {
+    line-height: 2;
+    font-size: 1.18rem;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+
+.adm {
+    color: darksalmon;
+}
+
+.g {
+    color: darksalmon;
+}
+
+.projecao {
+    line-height: 2;
+    font-size: 1.56rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.projecao_profissional {
+    line-height: 2;
+    font-size: 0.75rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.projecao_txt {
+    line-height: 2;
+    font-size: 0.75rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 25rem;
+}
